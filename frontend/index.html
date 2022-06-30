@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- -------------- STYLES CSS --------------- -->
+  <link rel="stylesheet" href="./styles/styles.css">
+  <!-- -------------- ANIMATE CSS -------------- -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <!-- -------------- TITLE PAGE --------------- -->
+  <title>Js Books App</title>
+</head>
+<body>
+  <nav>
+    <div class="container_nav">
+      <a href="/" class="nav_logo">Books App</a>
+    </div>
+  </nav>
+  <main>
+    <form action="" id="book-form" class="book-form">
+      <input type="text" name="title" placeholder="titulo" autofocus>
+      <input type="text" name="author" placeholder="autor">
+      <input type="file" name="image" accept="img/*">
+      <input type="text" name="isbn" placeholder="isbn">
+      <input type="submit" value="Agregar Libro" class="btn_submit">
+    </form>
+
+    <div class="books-cards-container" id="books-cards-container">
+    </div>
+  </main>
+</body>
+</html>
