@@ -1,11 +1,11 @@
 class BookServices {
     constructor() {
-        this.URL = 'http://localhost:3000/api/books';
+        this.URL = '/api/books';
     }
 
     async getBooks() {
         const response = await fetch(this.URL);
-        const books = response.json();
+        const books = await response.json();
         return books;
     }
 
